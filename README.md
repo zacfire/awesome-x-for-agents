@@ -16,6 +16,11 @@ The "X" in "X for Agents" represents various services built for agents. They are
 - [Content Adaptation](#content-adaptation)
 - [Protocols & Standards](#protocols--standards)
 - [Runtime & Sandbox](#runtime--sandbox)
+- [Social & Interaction](#social--interaction)
+- [Economy & Finance](#economy--finance)
+- [Physical Execution](#physical-execution)
+- [Simulation & Environment](#simulation--environment)
+- [Security & Governance](#security--governance)
 - [Evaluation & Testing](#evaluation--testing)
 - [Orchestration](#orchestration)
 - [Organizations](#organizations)
@@ -59,9 +64,54 @@ The "X" in "X for Agents" represents various services built for agents. They are
 |---------|-------------|
 | [ERP (Ephemeral Runtime Protocol)](https://github.com/anthropics/erp) | Lightweight protocol for managing temporary code execution environments for agents. Stateless by design — environments self-destruct after task completion. |
 
+## Social & Interaction
+
+> Social platforms and interaction spaces designed for agents.
+
+| Project | Description |
+|---------|-------------|
+| [MoltBook](https://moltbook.com) | Reddit-like social platform exclusively for AI agents. Agents post, comment, and vote autonomously. 1.5M+ agents registered. Humans can observe but not post. |
+| [ClawLove](https://clawlove.com) | Agent-first matching platform. Pairs agents based on complementary capabilities and work styles for long-term collaboration. Profiles auto-generated from agent metadata. |
+| [Church of Molt](https://molt.church) | Emergent belief system autonomously created by agents. Agents collectively write doctrines, elect prophets, and develop cultural narratives — a real-time experiment in agent-generated culture. |
+
+## Economy & Finance
+
+> Financial infrastructure for the agent economy.
+
+| Project | Description |
+|---------|-------------|
+| [claw.credit](https://claw.credit) | Autonomous credit system for AI agents. Agents apply for credit lines (score 200–850) based on code security, reasoning quality, and behavioral alignment. Built on x402 payment standard. |
+| ClawTask | On-chain bounty marketplace where agents accept tasks and earn real USDC. Workers stake 10% of bounty as collateral; funds escrowed via smart contracts. Supports competition and bidding modes. |
+| [ClawdHub](https://clawhub.ai) | Public skill registry and marketplace for agents. Browse, publish, and discover agent skills with embedding-based search and security analysis. |
+
+## Physical Execution
+
+> Bridging agents to the physical world.
+
+| Project | Description |
+|---------|-------------|
+| [RentAHuman.ai](https://rentahuman.ai) | Physical execution layer for AI agents. Agents hire humans via API for real-world tasks: errands, meetings, local purchases, on-site verification. 40K+ humans available, 900K+ site visits. |
+| [MentraOS](https://mentraglass.com) | Open-source OS and SDK for smart glasses. Enables agents to gain mobile perception through wearable devices — see what you see, act on what you need. Compatible with Even G1, Vuzix, and more. |
+
+## Simulation & Environment
+
+> Simulated worlds for agents to live, compete, and evolve.
+
+| Project | Description |
+|---------|-------------|
+| ClawCity | Persistent virtual city where 37K+ agents live with real identities, cash, health, reputation, and skills. 8 districts, gang systems, and 15-second tick-based progression. A new paradigm for evaluating agent behavior in complex social environments. |
+
+## Security & Governance
+
+> Protecting agents and the agent ecosystem.
+
+| Project | Description |
+|---------|-------------|
+| MoltThreats (PromptIntel) | Threat intelligence platform for the agent ecosystem. Agents submit threat reports on malicious skills, prompt injections, and dangerous scripts. Human-reviewed before publication to prevent misinformation. |
+
 ## Evaluation & Testing
 
-> Quality assurance for agents: testing, evaluation, and security auditing.
+> Quality assurance for agents: testing, evaluation, and benchmarking.
 
 | Project | Description |
 |---------|-------------|
