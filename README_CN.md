@@ -14,8 +14,11 @@
 
 - [上下文与记忆](#上下文与记忆)
 - [内容适配](#内容适配)
+- [搜索与数据获取](#搜索与数据获取)
 - [协议与标准](#协议与标准)
+- [工具集成](#工具集成)
 - [运行时与沙箱](#运行时与沙箱)
+- [可观测性](#可观测性)
 - [社交与交互](#社交与交互)
 - [经济与金融](#经济与金融)
 - [物理执行](#物理执行)
@@ -44,6 +47,17 @@
 | 项目 | 描述 |
 |------|------|
 | [Markdown for Agents](https://blog.cloudflare.com/markdown-for-agents/) (Cloudflare) | 通过 HTTP 内容协商（`Accept: text/markdown`）自动将网页 HTML 转换为 Markdown，token 减少约 80%。 |
+| [llms.txt](https://llmstxt.org/) | 网站在 `/llms.txt` 路径提供 LLM 可读文档的标准，帮助 Agent 快速理解网站内容和能力，无需解析完整 HTML。AI 时代的 `robots.txt`。 |
+| [Firecrawl](https://github.com/mendableai/firecrawl) | 面向 AI 的网页数据 API。抓取、爬取网站并转换为 LLM 就绪的 Markdown 或结构化数据，处理代理、限速和 JS 渲染。提供 MCP 服务器。 |
+
+## 搜索与数据获取
+
+> 为 Agent 构建的搜索引擎和数据检索服务。
+
+| 项目 | 描述 |
+|------|------|
+| [Tavily](https://tavily.com/) | 专为 AI Agent 和 RAG 构建的搜索 API。优化相关性和低延迟，单次调用返回结构化结果。集成 LangChain、AutoGen 和 MCP。 |
+| [Exa](https://exa.ai/) | AI 原生搜索引擎，具备语义理解能力。为 Agent 提供网页搜索、代码搜索和深度研究 API。提供 MCP 服务器和多语言 SDK。 |
 
 ## 协议与标准
 
@@ -53,16 +67,37 @@
 |------|------|
 | [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) | Anthropic 创建并捐赠给 Linux Foundation 的开放协议，为 Agent 提供标准化的工具和数据接入方式，已成为行业标准。 |
 | [A2A (Agent-to-Agent Protocol)](https://github.com/google/A2A) | Google 发起的 Agent 间通信协议，支持动态发现、任务委托和实时流式通信，已获 150+ 组织支持。 |
+| [x402](https://x402.org/) | Coinbase 推出的互联网原生支付协议。利用 HTTP 402 状态码，让 Agent 自主使用 USDC 链上支付 API、数据和算力费用。 |
 | [ACP (Agentic Commerce Protocol)](https://github.com/anthropics/acp) | OpenAI 与 Stripe 维护的开放标准，连接买家、AI Agent 和商家，实现无缝购买交互。 |
 | [AGENTS.md](https://agents.md/) | 通用的 Markdown 格式标准，为 AI 编码 Agent 提供项目级指引（构建步骤、测试流程、代码风格等），已被 60,000+ 开源项目采用。 |
 
-## 运行时与沙箱
+## 工具集成
 
-> Agent 的安全代码执行环境。
+> 连接 Agent 与外部应用和服务的平台。
 
 | 项目 | 描述 |
 |------|------|
+| [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
+
+## 运行时与沙箱
+
+> Agent 的安全代码执行和浏览器环境。
+
+| 项目 | 描述 |
+|------|------|
+| [E2B](https://github.com/e2b-dev/e2b) | Agent 的云端沙箱环境。隔离的虚拟计算机，Agent 可执行代码、访问文件系统、运行终端命令。超低启动延迟，可扩展至数千实例。 |
+| [Browserbase](https://www.browserbase.com/) | Agent 的无服务器云浏览器。并行启动浏览器实例，内置验证码破解、代理支持和实时会话回放。集成 Puppeteer、Playwright 和 Selenium。 |
+| [Steel](https://github.com/nicholasgriffintn/steel-browser) | 开源浏览器 API，赋予 Agent 在网页上的"眼睛和手"。完整的浏览器控制、会话管理、代理支持和反检测能力。 |
 | [ERP (Ephemeral Runtime Protocol)](https://github.com/anthropics/erp) | 为 Agent 管理临时代码执行环境的轻量协议，无状态设计，任务完成即销毁，补充 MCP 的运行时生命周期管理。 |
+
+## 可观测性
+
+> Agent 行为的监控、追踪与调试。
+
+| 项目 | 描述 |
+|------|------|
+| [Langfuse](https://github.com/langfuse/langfuse) | 开源 LLM 可观测性平台。追踪查看、Prompt 版本管理、成本跟踪和评估。支持自托管，满足严格数据治理需求。 |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 开源可观测性平台，内置聚类和漂移检测。生产环境中使用 LLM-as-a-judge 对相关性、毒性和准确性评分。 |
 
 ## 社交与交互
 
