@@ -215,6 +215,8 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 | [The AI Agent Tech Stack](https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2025/) | CB Insights | Maps the infrastructure powering autonomous AI — from memory to payments to evaluation. |
 | [Big Ideas 2026](https://a16z.com/big-ideas-2026/) | a16z | Infrastructure must evolve to handle "agent-speed" workloads — concurrent, recursive, bursty — which current systems mistake for attacks. |
 | [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI-first agents for personal infra, MCP for enterprise adoption — the real question is context, not protocol. |
+| [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks/report) | Amplifying.ai | 2,430 prompts reveal Claude Code's default stack. Agents build over buy (Custom/DIY in 12/20 categories). GitHub Actions 94%, Stripe 91%, shadcn/ui 90%. If your tool isn't in the agent's defaults, you're invisible. |
+| [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agents prefer writing code over adding dependencies — because "code is free but dependencies aren't" for an AI. |
 
 ---
 

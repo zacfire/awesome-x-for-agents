@@ -215,6 +215,8 @@ AI Agent 基础设施有两个截然不同的层次：
 | [The AI Agent Tech Stack](https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2025/) | CB Insights | 绘制了支撑自主 AI 的基础设施全景图——从记忆到支付到评测。 |
 | [Big Ideas 2026](https://a16z.com/big-ideas-2026/) | a16z | 基础设施必须进化以应对 "Agent 速度" 的工作负载——并发、递归、突发——当前系统会将其误判为攻击。 |
 | [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI 优先适合个人基础设施，MCP 适合企业采用——真正的问题是上下文，不是协议。 |
+| [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks/report) | Amplifying.ai | 2,430 次提示词揭示 Claude Code 的默认技术栈。Agent 倾向造轮子而非买服务（20 个类别中 12 个选择 DIY）。GitHub Actions 94%、Stripe 91%、shadcn/ui 90%。如果你的工具不在 Agent 的默认选项里，你就是隐形的。 |
+| [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agent 更喜欢写代码而非引入依赖——因为对 AI 来说"代码是免费的，依赖不是"。 |
 
 ---
 
