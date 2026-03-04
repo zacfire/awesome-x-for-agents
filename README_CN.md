@@ -96,6 +96,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Terminalwire](https://terminalwire.com/) | 通过 WebSocket 将服务端 CLI 应用流式传输给用户。几天内为你的 SaaS 发布一个 CLI——Agent（和人类）通过终端而非 Web UI 交互。 |
 | [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | 定位为"被 Agent 使用多于被人类使用"的 CLI 平台。内置构建、验证、测试和部署的完整工具链——全程无需打开 GUI。 |
 | [Polymarket CLI](https://github.com/Polymarket/agents) | Polymarket 官方 CLI + Agent 框架，用于预测市场自主交易。Agent 查询市场、检索新闻、用 LLM 推理，通过命令行执行交易。 |
+| [bb-browser](https://github.com/epiral/bb-browser) | 浏览器自动化 CLI，让 Agent 使用你的**真实 Chrome**——复用已有登录态、Cookies，无自动化指纹。通过 `chrome.debugger` API 操作。 |
 | [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub 官方 CLI。不是为 Agent 构建的，但却是 Agent 使用最多的 CLI——PR、Issue、代码审查、仓库管理。"CLI 即 Agent 接口"的典范。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 

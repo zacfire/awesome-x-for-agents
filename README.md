@@ -96,6 +96,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 | [Terminalwire](https://terminalwire.com/) | Stream server-side CLI apps to users via WebSocket. Ship a CLI for your SaaS in days — agents (and humans) interact through the terminal instead of a web UI. |
 | [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | CLI platform designed to be used more by agents than humans. Batteries-included tooling for build, validate, test, and deploy — all without visiting a GUI. |
 | [Polymarket CLI](https://github.com/Polymarket/agents) | Official CLI + agent framework for autonomous prediction market trading. Agents query markets, retrieve news, reason with LLMs, and execute trades via command line. |
+| [bb-browser](https://github.com/epiral/bb-browser) | Browser automation CLI that lets agents use your *real* Chrome — with existing login sessions, cookies, and no automation fingerprint. Operates via `chrome.debugger` API. |
 | [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub's official CLI. Not built *for* agents, but the most-used CLI *by* agents — PRs, issues, code review, and repo management. The poster child of "CLI as agent interface". |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
