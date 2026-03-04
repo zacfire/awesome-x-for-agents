@@ -8,6 +8,12 @@
 
 **"X for Agents"** 中的 X 代表各种为 Agent 而生的服务。它们不是 Agent 本身，而是让 Agent 更好运行的"水电煤"。
 
+AI Agent 基础设施有两个截然不同的层次：
+- **Infra of Agent** — 构建 Agent 的基础设施（框架、SDK、编排器）
+- **Infra for Agent** — 给 Agent 用的基础设施（本列表的关注点）
+
+本列表聚焦于 **Infra for Agent**：Agent 作为终端用户所消费的工具、服务和协议。
+
 ---
 
 ## 目录
@@ -27,6 +33,7 @@
 - [评测与测试](#评测与测试)
 - [编排与工作流](#编排与工作流)
 - [组织与基金会](#组织与基金会)
+- [相关阅读](#相关阅读)
 
 ---
 
@@ -170,6 +177,20 @@
 | 组织 | 描述 |
 |------|------|
 | [AAIF (Agentic AI Foundation)](https://www.linuxfoundation.org/) | Linux Foundation 旗下基金会，推动 Agentic AI 开放生态，初始贡献包括 MCP、goose、AGENTS.md。 |
+
+---
+
+## 相关阅读
+
+> 探讨 "X for Agents" 领域及其趋势的文章。
+
+| 文章 | 作者 | 核心观点 |
+|------|------|---------|
+| [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) | Eric Holmes | CLI 工具可能是比 MCP 更好的 Agent 接口——更简单的认证、无运行时进程、久经考验。 |
+| [Markdown for Agents](https://blog.cloudflare.com/markdown-for-agents/) | Cloudflare | 互联网需要一个机器可读层。HTTP 内容协商可以直接给 Agent 返回 Markdown，减少约 80% token。 |
+| [The AI Agent Tech Stack](https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2025/) | CB Insights | 绘制了支撑自主 AI 的基础设施全景图——从记忆到支付到评测。 |
+| [Big Ideas 2026](https://a16z.com/big-ideas-2026/) | a16z | 基础设施必须进化以应对 "Agent 速度" 的工作负载——并发、递归、突发——当前系统会将其误判为攻击。 |
+| [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI 优先适合个人基础设施，MCP 适合企业采用——真正的问题是上下文，不是协议。 |
 
 ---
 

@@ -8,6 +8,12 @@
 
 The "X" in "X for Agents" represents various services built for agents. They are not agents themselves, but the infrastructure that makes agents work better.
 
+There are two distinct layers of AI agent infrastructure:
+- **Infra of Agent** — Infrastructure for *building* agents (frameworks, SDKs, orchestrators)
+- **Infra for Agent** — Infrastructure *used by* agents (the focus of this list)
+
+This list focuses on **Infra for Agent**: the utilities, services, and protocols that agents consume as end-users.
+
 ---
 
 ## Contents
@@ -27,6 +33,7 @@ The "X" in "X for Agents" represents various services built for agents. They are
 - [Evaluation & Testing](#evaluation--testing)
 - [Orchestration](#orchestration)
 - [Organizations](#organizations)
+- [Related Reading](#related-reading)
 
 ---
 
@@ -170,6 +177,20 @@ The "X" in "X for Agents" represents various services built for agents. They are
 | Organization | Description |
 |--------------|-------------|
 | [AAIF (Agentic AI Foundation)](https://www.linuxfoundation.org/) | Linux Foundation initiative fostering open agentic AI ecosystem. Initial contributions include MCP, goose, and AGENTS.md. |
+
+---
+
+## Related Reading
+
+> Articles and essays that explore the "X for Agents" landscape and its implications.
+
+| Article | Author | Key Insight |
+|---------|--------|-------------|
+| [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) | Eric Holmes | CLI tools may be better agent interfaces than MCP — simpler auth, no moving parts, battle-tested. |
+| [Markdown for Agents](https://blog.cloudflare.com/markdown-for-agents/) | Cloudflare | The web needs a machine-readable layer. HTTP content negotiation can serve agents Markdown directly, cutting tokens by ~80%. |
+| [The AI Agent Tech Stack](https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2025/) | CB Insights | Maps the infrastructure powering autonomous AI — from memory to payments to evaluation. |
+| [Big Ideas 2026](https://a16z.com/big-ideas-2026/) | a16z | Infrastructure must evolve to handle "agent-speed" workloads — concurrent, recursive, bursty — which current systems mistake for attacks. |
+| [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI-first agents for personal infra, MCP for enterprise adoption — the real question is context, not protocol. |
 
 ---
 
