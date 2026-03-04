@@ -23,6 +23,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 - [Search & Data Retrieval](#search--data-retrieval)
 - [Protocols & Standards](#protocols--standards)
 - [Tool Integration](#tool-integration)
+- [Agent-Native CLI](#agent-native-cli)
 - [Runtime & Sandbox](#runtime--sandbox)
 - [Observability](#observability)
 - [Social & Interaction](#social--interaction)
@@ -85,6 +86,18 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 | Project | Description |
 |---------|-------------|
 | [Composio](https://github.com/ComposioHQ/composio) | Developer-first platform connecting AI agents to 500+ apps and APIs. Handles OAuth, rate limits, and error handling. Compatible with LangChain, CrewAI, OpenAI, and more. |
+
+## Agent-Native CLI
+
+> CLI tools designed or optimized for AI agent consumption. The argument: agents already speak shell — give them a good CLI and docs, they'll figure out the rest. [(Why CLIs beat MCP for agents)](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
+
+| Project | Description |
+|---------|-------------|
+| [Terminalwire](https://terminalwire.com/) | Stream server-side CLI apps to users via WebSocket. Ship a CLI for your SaaS in days — agents (and humans) interact through the terminal instead of a web UI. |
+| [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | CLI platform designed to be used more by agents than humans. Batteries-included tooling for build, validate, test, and deploy — all without visiting a GUI. |
+| [Polymarket CLI](https://github.com/Polymarket/agents) | Official CLI + agent framework for autonomous prediction market trading. Agents query markets, retrieve news, reason with LLMs, and execute trades via command line. |
+| [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub's official CLI. Not built *for* agents, but the most-used CLI *by* agents — PRs, issues, code review, and repo management. The poster child of "CLI as agent interface". |
+| [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
 

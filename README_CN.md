@@ -23,6 +23,7 @@ AI Agent 基础设施有两个截然不同的层次：
 - [搜索与数据获取](#搜索与数据获取)
 - [协议与标准](#协议与标准)
 - [工具集成](#工具集成)
+- [Agent 原生 CLI](#agent-原生-cli)
 - [运行时与沙箱](#运行时与沙箱)
 - [可观测性](#可观测性)
 - [社交与交互](#社交与交互)
@@ -85,6 +86,18 @@ AI Agent 基础设施有两个截然不同的层次：
 | 项目 | 描述 |
 |------|------|
 | [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
+
+## Agent 原生 CLI
+
+> 为 AI Agent 设计或优化的命令行工具。核心观点：Agent 天生会说 shell——给它一个好 CLI 和文档，它自己就能搞定。[（为什么 CLI 比 MCP 更适合 Agent）](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
+
+| 项目 | 描述 |
+|------|------|
+| [Terminalwire](https://terminalwire.com/) | 通过 WebSocket 将服务端 CLI 应用流式传输给用户。几天内为你的 SaaS 发布一个 CLI——Agent（和人类）通过终端而非 Web UI 交互。 |
+| [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | 定位为"被 Agent 使用多于被人类使用"的 CLI 平台。内置构建、验证、测试和部署的完整工具链——全程无需打开 GUI。 |
+| [Polymarket CLI](https://github.com/Polymarket/agents) | Polymarket 官方 CLI + Agent 框架，用于预测市场自主交易。Agent 查询市场、检索新闻、用 LLM 推理，通过命令行执行交易。 |
+| [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub 官方 CLI。不是为 Agent 构建的，但却是 Agent 使用最多的 CLI——PR、Issue、代码审查、仓库管理。"CLI 即 Agent 接口"的典范。 |
+| [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱
 
