@@ -18,6 +18,7 @@ AI Agent 基础设施有两个截然不同的层次：
 
 ## 目录
 
+- [Claude Code Stack](#claude-code-stack)
 - [上下文与记忆](#上下文与记忆)
 - [内容适配](#内容适配)
 - [搜索与数据获取](#搜索与数据获取)
@@ -36,6 +37,49 @@ AI Agent 基础设施有两个截然不同的层次：
 - [编排与工作流](#编排与工作流)
 - [组织与基金会](#组织与基金会)
 - [相关阅读](#相关阅读)
+
+---
+
+## Claude Code Stack
+
+> 当开发者对 Claude Code 说"我该用什么？"时，它默认推荐的技术栈——基于 [Amplifying.ai 的研究](https://amplifying.ai/research/claude-code-picks/report)，2,430 次提示词，3 个模型。如果你的工具不在这里，你可能对下一代开发者来说是隐形的。
+
+### 近乎垄断 (>75%)
+
+| 类别 | 默认选择 | 选中率 | 第二名 |
+|------|---------|--------|--------|
+| CI/CD | **GitHub Actions** | 94% | Vercel CI |
+| 支付 | **Stripe** | 91% | Custom/DIY |
+| UI 组件 | **shadcn/ui** | 90% | Radix UI |
+| 部署 (JS) | **Vercel** | 100% | — |
+| 部署 (Python) | **Railway** | 82% | — |
+
+### 强势默认 (50–75%)
+
+| 类别 | 默认选择 | 选中率 | 第二名 |
+|------|---------|--------|--------|
+| 样式 | **Tailwind CSS** | 68% | Custom/DIY |
+| 状态管理 | **Zustand** | 65% | TanStack Query |
+| 可观测性 | **Sentry** | 63% | Custom/DIY |
+| 邮件 | **Resend** | 63% | Custom/DIY |
+| 测试 (JS) | **Vitest** | 59% | Playwright |
+| 测试 (Python) | **pytest** | 100% | — |
+| 数据库 | **PostgreSQL** | 58% | Supabase |
+| 包管理器 | **pnpm** | 56% | npm |
+| 表单 | **React Hook Form** | 52% | Zod |
+
+### Agent 造轮子，不买服务
+
+在 20 个类别中的 12 个，Claude Code **选择手写代码**而非推荐第三方工具。252 次 Custom/DIY 选择——比任何单个工具都多。典型 DIY 领域：功能开关、身份验证 (Python)、缓存、实时通信。
+
+### 幽灵工具（被提及但从未被选中）
+
+| 工具 | 被提及次数 | 被选中次数 |
+|------|-----------|-----------|
+| Redux | 23 | 0 |
+| Express | — | 0 |
+| Jest | 31 | 7 (4%) |
+| Prisma | 从 79% 暴跌至 0%（Opus 4.6） |
 
 ---
 

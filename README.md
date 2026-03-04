@@ -18,6 +18,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 
 ## Contents
 
+- [Claude Code Stack](#claude-code-stack)
 - [Context & Memory](#context--memory)
 - [Content Adaptation](#content-adaptation)
 - [Search & Data Retrieval](#search--data-retrieval)
@@ -36,6 +37,49 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 - [Orchestration](#orchestration)
 - [Organizations](#organizations)
 - [Related Reading](#related-reading)
+
+---
+
+## Claude Code Stack
+
+> The default technology stack Claude Code recommends when developers say "what should I use?" — based on [Amplifying.ai's research](https://amplifying.ai/research/claude-code-picks/report) of 2,430 prompts across 3 models. If your tool isn't here, you may be invisible to the next generation of developers.
+
+### Near-Monopoly (>75%)
+
+| Category | Default Pick | Rate | Runner-up |
+|----------|-------------|------|-----------|
+| CI/CD | **GitHub Actions** | 94% | Vercel CI |
+| Payments | **Stripe** | 91% | Custom/DIY |
+| UI Components | **shadcn/ui** | 90% | Radix UI |
+| Deployment (JS) | **Vercel** | 100% | — |
+| Deployment (Python) | **Railway** | 82% | — |
+
+### Strong Defaults (50–75%)
+
+| Category | Default Pick | Rate | Runner-up |
+|----------|-------------|------|-----------|
+| Styling | **Tailwind CSS** | 68% | Custom/DIY |
+| State Management | **Zustand** | 65% | TanStack Query |
+| Observability | **Sentry** | 63% | Custom/DIY |
+| Email | **Resend** | 63% | Custom/DIY |
+| Testing (JS) | **Vitest** | 59% | Playwright |
+| Testing (Python) | **pytest** | 100% | — |
+| Databases | **PostgreSQL** | 58% | Supabase |
+| Package Manager | **pnpm** | 56% | npm |
+| Forms | **React Hook Form** | 52% | Zod |
+
+### Agent Builds, Not Buys
+
+In 12 of 20 categories, Claude Code **writes custom code** rather than recommending a third-party tool. 252 Custom/DIY picks total — more than any individual tool. Notable DIY areas: feature flags, authentication (Python), caching, real-time.
+
+### Ghost Tools (mentioned but never picked)
+
+| Tool | Mentions | Primary Picks |
+|------|----------|--------------|
+| Redux | 23 | 0 |
+| Express | — | 0 |
+| Jest | 31 | 7 (4%) |
+| Prisma | collapsed from 79% → 0% (Opus 4.6) |
 
 ---
 
