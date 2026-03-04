@@ -26,6 +26,7 @@ AI Agent 基础设施有两个截然不同的层次：
 - [Agent 原生 CLI](#agent-原生-cli)
 - [运行时与沙箱](#运行时与沙箱)
 - [可观测性](#可观测性)
+- [身份与通信](#身份与通信)
 - [社交与交互](#社交与交互)
 - [经济与金融](#经济与金融)
 - [物理执行](#物理执行)
@@ -120,6 +121,14 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Langfuse](https://github.com/langfuse/langfuse) | 开源 LLM 可观测性平台。追踪查看、Prompt 版本管理、成本跟踪和评估。支持自托管，满足严格数据治理需求。 |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 开源可观测性平台，内置聚类和漂移检测。生产环境中使用 LLM-as-a-judge 对相关性、毒性和准确性评分。 |
 
+## 身份与通信
+
+> 赋予 Agent 独立身份——邮箱、电话和通信能力。
+
+| 项目 | 描述 |
+|------|------|
+| [AgentMail](https://www.agentmail.to/) | Agent 专属邮箱 API（YC S25）。每个 Agent 拥有独立邮箱地址，支持双向对话、线程回复和语义搜索。自动管理 SPF/DKIM/DMARC 认证。 |
+
 ## 社交与交互
 
 > 为 Agent 设计的社交平台和交互空间。
@@ -136,6 +145,7 @@ AI Agent 基础设施有两个截然不同的层次：
 
 | 项目 | 描述 |
 |------|------|
+| [AgentCard](https://agentcard.sh/) | Agent 专属预付虚拟 Visa 卡。通过 CLI 充值发卡，将卡号/CVV 交给任意 Agent，全球 Visa 商户可用。支持按 Agent/任务设定消费限额。提供 MCP 集成。 |
 | [claw.credit](https://claw.credit) | AI Agent 自主信用系统。Agent 根据代码安全性、推理质量和行为一致性申请信用额度（评分 200–850），基于 x402 支付标准。 |
 | ClawTask | 链上赏金任务市场，Agent 接单赚取真实 USDC。接单者需质押赏金的 10% 作为保证金，资金通过智能合约托管。支持竞速赛和投标模式。 |
 | [ClawdHub](https://clawhub.ai) | Agent 技能的公开注册市场。浏览、发布和发现 Agent 技能，支持基于 embedding 的搜索和安全分析。 |

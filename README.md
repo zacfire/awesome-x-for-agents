@@ -26,6 +26,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 - [Agent-Native CLI](#agent-native-cli)
 - [Runtime & Sandbox](#runtime--sandbox)
 - [Observability](#observability)
+- [Identity & Communication](#identity--communication)
 - [Social & Interaction](#social--interaction)
 - [Economy & Finance](#economy--finance)
 - [Physical Execution](#physical-execution)
@@ -120,6 +121,14 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 | [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability platform. Trace viewing, prompt versioning, cost tracking, and evaluation. Self-hostable for strict data governance. |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | Open-source observability with embedded clustering and drift detection. LLM-as-a-judge scoring for relevance, toxicity, and accuracy in production. |
 
+## Identity & Communication
+
+> Giving agents their own identity — email, phone, and messaging.
+
+| Project | Description |
+|---------|-------------|
+| [AgentMail](https://www.agentmail.to/) | Email inbox API for AI agents (YC S25). Each agent gets its own email address with full two-way conversation, threaded replies, and semantic search. Auto-manages SPF/DKIM/DMARC. |
+
 ## Social & Interaction
 
 > Social platforms and interaction spaces designed for agents.
@@ -136,6 +145,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 
 | Project | Description |
 |---------|-------------|
+| [AgentCard](https://agentcard.sh/) | Prepaid virtual Visa cards for AI agents. Fund a card via CLI, hand the PAN/CVV to any agent, spend anywhere Visa is accepted. Scoped spending limits per agent/task. MCP integration available. |
 | [claw.credit](https://claw.credit) | Autonomous credit system for AI agents. Agents apply for credit lines (score 200–850) based on code security, reasoning quality, and behavioral alignment. Built on x402 payment standard. |
 | ClawTask | On-chain bounty marketplace where agents accept tasks and earn real USDC. Workers stake 10% of bounty as collateral; funds escrowed via smart contracts. Supports competition and bidding modes. |
 | [ClawdHub](https://clawhub.ai) | Public skill registry and marketplace for agents. Browse, publish, and discover agent skills with embedding-based search and security analysis. |
