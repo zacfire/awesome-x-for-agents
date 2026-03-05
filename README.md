@@ -111,6 +111,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 |---------|-------------|
 | [Tavily](https://tavily.com/) | Search API built specifically for AI agents and RAG. Optimized for relevancy and low latency, returns structured results in a single call. Integrates with LangChain, AutoGen, and MCP. |
 | [Exa](https://exa.ai/) | AI-native search engine with semantic understanding. Provides web search, code search, and deep research APIs for agents. MCP server and SDKs available. |
+| [Apify](https://apify.com/) | Serverless platform with 10,000+ ready-made Actors for web scraping, data extraction, and automation. Provides [MCP server](https://apify.com/ai-agents) and [Agent Skills](https://github.com/apify/agent-skills) (lead gen, competitor analysis, trend tracking). Agents discover and use Actors as tools dynamically. |
 
 ## Protocols & Standards
 

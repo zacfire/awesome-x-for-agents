@@ -111,6 +111,7 @@ AI Agent 基础设施有两个截然不同的层次：
 |------|------|
 | [Tavily](https://tavily.com/) | 专为 AI Agent 和 RAG 构建的搜索 API。优化相关性和低延迟，单次调用返回结构化结果。集成 LangChain、AutoGen 和 MCP。 |
 | [Exa](https://exa.ai/) | AI 原生搜索引擎，具备语义理解能力。为 Agent 提供网页搜索、代码搜索和深度研究 API。提供 MCP 服务器和多语言 SDK。 |
+| [Apify](https://apify.com/) | 无服务器平台，10,000+ 现成 Actors 用于网页抓取、数据提取和自动化。提供 [MCP 服务器](https://apify.com/ai-agents)和 [Agent Skills](https://github.com/apify/agent-skills)（线索生成、竞品分析、趋势追踪）。Agent 可动态发现和调用 Actors 作为工具。 |
 
 ## 协议与标准
 
