@@ -37,6 +37,7 @@ AI Agent 基础设施有两个截然不同的层次：
 - [编排与工作流](#编排与工作流)
 - [组织与基金会](#组织与基金会)
 - [相关阅读](#相关阅读)
+- [概念指南](docs/concepts.md) — 理解 API / CLI / Skill / MCP 的关系与差异
 
 ---
 
@@ -146,6 +147,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Google Workspace CLI](https://github.com/googleworkspace/cli) | Google 官方 CLI，覆盖 Drive、Gmail、Calendar、Sheets、Docs、Chat、Admin 等。Rust 构建，从 Discovery API 动态生成。**内置 AI Agent Skills。** |
 | [bb-browser](https://github.com/epiral/bb-browser) | 浏览器自动化 CLI，让 Agent 使用你的**真实 Chrome**——复用已有登录态、Cookies，无自动化指纹。通过 `chrome.debugger` API 操作。 |
 | [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub 官方 CLI。不是为 Agent 构建的，但却是 Agent 使用最多的 CLI——PR、Issue、代码审查、仓库管理。"CLI 即 Agent 接口"的典范。 |
+| [agent-clip](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | 单工具 Agent 架构：一个 `run(command)` 取代庞杂的工具目录。基于 Unix 哲学——管道、链式执行、渐进式 `--help`、错误引导导航、双层执行/呈现架构。"CLI is all agents need" 理念的最完整实现。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱
@@ -264,6 +266,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI 优先适合个人基础设施，MCP 适合企业采用——真正的问题是上下文，不是协议。 |
 | [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks/report) | Amplifying.ai | 2,430 次提示词揭示 Claude Code 的默认技术栈。Agent 倾向造轮子而非买服务（20 个类别中 12 个选择 DIY）。GitHub Actions 94%、Stripe 91%、shadcn/ui 90%。如果你的工具不在 Agent 的默认选项里，你就是隐形的。 |
 | [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agent 更喜欢写代码而非引入依赖——因为对 AI 来说"代码是免费的，依赖不是"。 |
+| [CLI is All Agents Need — *nix Agent 设计宝典](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | agent-clip | 一个 `run(command)` 就够了。Unix 的"一切皆文本流" = LLM 的"一切皆 token"。渐进式 --help、错误引导导航、双层架构。 |
 
 ---
 

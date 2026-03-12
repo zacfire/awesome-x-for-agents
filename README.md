@@ -37,6 +37,7 @@ This list focuses on **Infra for Agent**: the utilities, services, and protocols
 - [Orchestration](#orchestration)
 - [Organizations](#organizations)
 - [Related Reading](#related-reading)
+- [Concepts Guide](docs/concepts.md) — Understanding API vs CLI vs Skill vs MCP
 
 ---
 
@@ -146,6 +147,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Google Workspace CLI](https://github.com/googleworkspace/cli) | Google's official CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Rust-built, dynamically generated from Discovery API. **Includes AI agent skills.** |
 | [bb-browser](https://github.com/epiral/bb-browser) | Browser automation CLI that lets agents use your *real* Chrome — with existing login sessions, cookies, and no automation fingerprint. Operates via `chrome.debugger` API. |
 | [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub's official CLI. Not built *for* agents, but the most-used CLI *by* agents — PRs, issues, code review, and repo management. The poster child of "CLI as agent interface". |
+| [agent-clip](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | Single-tool agent architecture: one `run(command)` replaces sprawling tool catalogs. Built on Unix philosophy — pipes, chains, progressive `--help`, error-guided navigation, and a two-layer execution/presentation architecture. The most complete implementation of "CLI is all agents need". |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
@@ -264,6 +266,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [The MCP vs. CLI Debate Is the Wrong Fight](https://medium.com/@tobias_pfuetze/the-mcp-vs-cli-debate-is-the-wrong-fight-a87f1b4c8006) | Tobias Pfuetze | CLI-first agents for personal infra, MCP for enterprise adoption — the real question is context, not protocol. |
 | [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks/report) | Amplifying.ai | 2,430 prompts reveal Claude Code's default stack. Agents build over buy (Custom/DIY in 12/20 categories). GitHub Actions 94%, Stripe 91%, shadcn/ui 90%. If your tool isn't in the agent's defaults, you're invisible. |
 | [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agents prefer writing code over adding dependencies — because "code is free but dependencies aren't" for an AI. |
+| [CLI is All Agents Need — *nix Agent Design Bible](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | agent-clip | A single `run(command)` outperforms sprawling tool catalogs. Unix's "everything is text" = LLM's "everything is tokens". Progressive --help, error-guided navigation, and two-layer architecture. |
 
 ---
 
