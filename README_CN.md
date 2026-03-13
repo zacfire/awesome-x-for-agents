@@ -148,6 +148,9 @@ AI Agent 基础设施有两个截然不同的层次：
 | [bb-browser](https://github.com/epiral/bb-browser) | 浏览器自动化 CLI，让 Agent 使用你的**真实 Chrome**——复用已有登录态、Cookies，无自动化指纹。通过 `chrome.debugger` API 操作。 |
 | [gh (GitHub CLI)](https://github.com/cli/cli) | GitHub 官方 CLI。不是为 Agent 构建的，但却是 Agent 使用最多的 CLI——PR、Issue、代码审查、仓库管理。"CLI 即 Agent 接口"的典范。 |
 | [agent-clip](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | 单工具 Agent 架构：一个 `run(command)` 取代庞杂的工具目录。基于 Unix 哲学——管道、链式执行、渐进式 `--help`、错误引导导航、双层执行/呈现架构。"CLI is all agents need" 理念的最完整实现。 |
+| [Jina CLI](https://github.com/jina-ai/cli) | Jina AI 全套 API 的 Unix CLI 封装 — `jina search`、`jina read`、`jina embed`、`jina rerank`、`jina pdf` 等。支持管道组合（`curl ... \| jina embed`）。Agent 只需 `run(command="jina search ...")` 即可调用全部能力。 |
+| [Context7 CLI (ctx7)](https://github.com/upstash/context7) | 24,000+ 库的实时文档查询 CLI。`ctx7 docs /vercel/next.js "app router"` 直接获取最新文档注入 Agent 上下文。内置 Skill Wizard，可生成和发布可复用的 Agent Skill。 |
+| [Kraken CLI](https://github.com/krakenfx/kraken-cli) | 首个 AI 原生加密货币交易 CLI。134 条命令覆盖现货、期货、质押和 WebSocket 流。Rust 单二进制文件，NDJSON 输出，内置 MCP 服务器，模拟交易沙箱。附带 50 个 Agent Skill。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱
