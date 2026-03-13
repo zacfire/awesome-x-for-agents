@@ -151,6 +151,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Jina CLI](https://github.com/jina-ai/cli) | All Jina AI APIs as Unix CLI commands — `jina search`, `jina read`, `jina embed`, `jina rerank`, `jina pdf`, and more. Supports pipes (`curl ... \| jina embed`). An agent with shell access needs only `run(command="jina search ...")` instead of managing separate tool definitions. |
 | [Context7 CLI (ctx7)](https://github.com/upstash/context7) | CLI for querying up-to-date documentation of 24,000+ libraries. `ctx7 docs /vercel/next.js "app router"` fetches current docs directly into agent context. Also includes a Skill Wizard for generating and publishing reusable agent skills. |
 | [Kraken CLI](https://github.com/krakenfx/kraken-cli) | First AI-native crypto trading CLI. 134 commands for spot, futures, staking, and WebSocket streaming. Rust single-binary, NDJSON output, built-in MCP server, paper trading sandbox. Ships with 50 agent skills. |
+| [Resend CLI](https://github.com/resend/resend-cli) | Resend's official CLI for email — 53 commands covering emails, domains, API keys, audiences, contacts, and broadcasts. Built for humans, AI agents, and CI/CD. Resend is Claude Code's default email pick (63%). |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
