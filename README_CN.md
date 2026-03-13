@@ -152,6 +152,8 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Jina CLI](https://github.com/jina-ai/cli) | Jina AI 全套 API 的 Unix CLI 封装 — `jina search`、`jina read`、`jina embed`、`jina rerank`、`jina pdf` 等。支持管道组合（`curl ... \| jina embed`）。Agent 只需 `run(command="jina search ...")` 即可调用全部能力。 |
 | [Context7 CLI (ctx7)](https://github.com/upstash/context7) | 24,000+ 库的实时文档查询 CLI。`ctx7 docs /vercel/next.js "app router"` 直接获取最新文档注入 Agent 上下文。内置 Skill Wizard，可生成和发布可复用的 Agent Skill。 |
 | [Kraken CLI](https://github.com/krakenfx/kraken-cli) | 首个 AI 原生加密货币交易 CLI。134 条命令覆盖现货、期货、质押和 WebSocket 流。Rust 单二进制文件，NDJSON 输出，内置 MCP 服务器，模拟交易沙箱。附带 50 个 Agent Skill。 |
+| [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) | 小红书 CLI — 搜索、阅读、互动、发帖。附带 SKILL.md 供 Agent 集成。同一作者的[系列项目](https://github.com/jackwener)还包括 bilibili-cli、twitter-cli、discord-cli、tg-cli。 |
+| [twitter-cli](https://github.com/jackwener/twitter-cli) | Twitter/X CLI — Feed、书签、用户时间线、发帖。结构化 YAML/JSON 输出，附带 SKILL.md。与 xiaohongshu-cli 同一作者。 |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend 官方邮件 CLI，53 条命令覆盖邮件发送、域名管理、API Key、受众、联系人和群发。为人类、AI Agent 和 CI/CD 构建。Resend 是 Claude Code 的默认邮件选择（63%）。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
