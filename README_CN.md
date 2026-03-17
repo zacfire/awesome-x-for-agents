@@ -134,6 +134,7 @@ AI Agent 基础设施有两个截然不同的层次：
 |------|------|
 | [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 自动将任何软件转化为 Agent 可控的 CLI。7 阶段流水线：分析 → 设计 → 实现 → 测试 → 文档 → 发布。已验证 GIMP、Blender、LibreOffice、OBS Studio、Audacity 等 11 个应用。11K+ stars。 |
+| [OpenCLI](https://github.com/jackwener/opencli) | 将任何网站变成 CLI。19 个站点 80+ 命令（B站、Twitter/X、Reddit、YouTube、知乎…）。双引擎：YAML 声明式管道 + TypeScript 浏览器运行时。AI 原生发现（`explore`、`synthesize`、`cascade` 命令）。复用 Chrome 登录态。 |
 
 ## Agent 原生 CLI
 

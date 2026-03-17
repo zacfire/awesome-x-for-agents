@@ -134,6 +134,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 |---------|-------------|
 | [Composio](https://github.com/ComposioHQ/composio) | Developer-first platform connecting AI agents to 500+ apps and APIs. Handles OAuth, rate limits, and error handling. Compatible with LangChain, CrewAI, OpenAI, and more. |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Automatically transforms any software into an agent-controllable CLI. 7-phase pipeline: analyze → design → implement → test → document → publish. Validated on GIMP, Blender, LibreOffice, OBS Studio, Audacity, and more. 11K+ stars. |
+| [OpenCLI](https://github.com/jackwener/opencli) | Turns any website into a CLI. 80+ commands across 19 sites (Bilibili, Twitter/X, Reddit, YouTube, Zhihu...). Dual-engine: YAML declarative pipelines + TypeScript browser runtime. AI-native discovery with `explore`, `synthesize`, `cascade` commands. Reuses Chrome login sessions. |
 
 ## Agent-Native CLI
 
