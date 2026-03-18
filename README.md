@@ -155,6 +155,8 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Kraken CLI](https://github.com/krakenfx/kraken-cli) | First AI-native crypto trading CLI. 134 commands for spot, futures, staking, and WebSocket streaming. Rust single-binary, NDJSON output, built-in MCP server, paper trading sandbox. Ships with 50 agent skills. |
 | [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) | CLI for Xiaohongshu (小红书) — search, read, interact, and post. Ships with SKILL.md for agent integration. Part of a [series](https://github.com/jackwener) including bilibili-cli, twitter-cli, discord-cli, tg-cli. |
 | [twitter-cli](https://github.com/jackwener/twitter-cli) | CLI for Twitter/X — feed, bookmarks, user timeline, and posting. Structured YAML/JSON output. Ships with SKILL.md. Same author as xiaohongshu-cli. |
+| [xurl](https://github.com/xdevplatform/xurl) | **X/Twitter's official CLI.** Agent-optimized with action chaining, SKILL.md, and OpenClaw integration. OAuth 1.0a/2.0, streaming, pagination, rate-limit retries. `npm i -g @xdevplatform/xurl` |
+| [bird](https://github.com/steipete/bird) | Fast X/Twitter CLI for agents — tweet, reply, read timelines, search, mentions. Uses GraphQL API with browser cookie auth. Image/GIF/video uploads. Popular in agent automation workflows. |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend's official CLI for email — 53 commands covering emails, domains, API keys, audiences, contacts, and broadcasts. Built for humans, AI agents, and CI/CD. Resend is Claude Code's default email pick (63%). |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
@@ -167,6 +169,8 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [E2B](https://github.com/e2b-dev/e2b) | Cloud sandbox environments for AI agents. Isolated virtual computers where agents execute code, access file systems, and run terminal commands. Ultra-low startup latency, scales to thousands of instances. |
 | [Browserbase](https://www.browserbase.com/) | Serverless cloud browsers for AI agents. Launch parallel browser instances with captcha solving, proxy support, and live session replay. Integrates with Puppeteer, Playwright, and Selenium. |
 | [Steel](https://github.com/nicholasgriffintn/steel-browser) | Open-source browser API giving AI agents "eyes and hands" on the web. Full browser control, session management, proxy support, and anti-detection capabilities. |
+| [Stagehand](https://github.com/browserbase/stagehand) | AI browser automation framework by Browserbase. Atomic primitives (`act`, `extract`, `observe`) + Agent mode for high-level decision making. v3 is 44% faster, driver-agnostic, multi-language. |
+| [Deno Sandbox](https://deno.com/blog/deno-sandbox) | Secure sandbox for AI-generated code execution. Firecracker microVMs with isolated filesystem, network, and process space. Defends against prompt injection. Ideal for agent tool execution. |
 | [ERP (Ephemeral Runtime Protocol)](https://github.com/anthropics/erp) | Lightweight protocol for managing temporary code execution environments for agents. Stateless by design — environments self-destruct after task completion. |
 
 ## Observability
@@ -177,6 +181,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 |---------|-------------|
 | [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability platform. Trace viewing, prompt versioning, cost tracking, and evaluation. Self-hostable for strict data governance. |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | Open-source observability with embedded clustering and drift detection. LLM-as-a-judge scoring for relevance, toxicity, and accuracy in production. |
+| [Entire CLI](https://github.com/entireio/cli) | Agent session version control. Captures prompts, responses, files touched, and token usage on a separate Git branch. Rewind to any checkpoint when an agent goes sideways. By former GitHub CEO, $60M seed. Works with Claude Code, Gemini, and more. |
 
 ## Identity & Communication
 

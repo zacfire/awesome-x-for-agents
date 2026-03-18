@@ -155,6 +155,8 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Kraken CLI](https://github.com/krakenfx/kraken-cli) | 首个 AI 原生加密货币交易 CLI。134 条命令覆盖现货、期货、质押和 WebSocket 流。Rust 单二进制文件，NDJSON 输出，内置 MCP 服务器，模拟交易沙箱。附带 50 个 Agent Skill。 |
 | [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) | 小红书 CLI — 搜索、阅读、互动、发帖。附带 SKILL.md 供 Agent 集成。同一作者的[系列项目](https://github.com/jackwener)还包括 bilibili-cli、twitter-cli、discord-cli、tg-cli。 |
 | [twitter-cli](https://github.com/jackwener/twitter-cli) | Twitter/X CLI — Feed、书签、用户时间线、发帖。结构化 YAML/JSON 输出，附带 SKILL.md。与 xiaohongshu-cli 同一作者。 |
+| [xurl](https://github.com/xdevplatform/xurl) | **X/Twitter 官方 CLI。** 专为 Agent 优化：action chaining、SKILL.md、OpenClaw 集成。OAuth 1.0a/2.0、流式传输、自动分页、限速重试。`npm i -g @xdevplatform/xurl` |
+| [bird](https://github.com/steipete/bird) | 快速 X/Twitter CLI — 发推、回复、读时间线、搜索、提及。使用 GraphQL API + 浏览器 Cookie 认证。支持图片/GIF/视频上传。在 Agent 自动化工作流中广泛使用。 |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend 官方邮件 CLI，53 条命令覆盖邮件发送、域名管理、API Key、受众、联系人和群发。为人类、AI Agent 和 CI/CD 构建。Resend 是 Claude Code 的默认邮件选择（63%）。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
@@ -167,6 +169,8 @@ AI Agent 基础设施有两个截然不同的层次：
 | [E2B](https://github.com/e2b-dev/e2b) | Agent 的云端沙箱环境。隔离的虚拟计算机，Agent 可执行代码、访问文件系统、运行终端命令。超低启动延迟，可扩展至数千实例。 |
 | [Browserbase](https://www.browserbase.com/) | Agent 的无服务器云浏览器。并行启动浏览器实例，内置验证码破解、代理支持和实时会话回放。集成 Puppeteer、Playwright 和 Selenium。 |
 | [Steel](https://github.com/nicholasgriffintn/steel-browser) | 开源浏览器 API，赋予 Agent 在网页上的"眼睛和手"。完整的浏览器控制、会话管理、代理支持和反检测能力。 |
+| [Stagehand](https://github.com/browserbase/stagehand) | Browserbase 出品的 AI 浏览器自动化框架。原子操作（`act`、`extract`、`observe`）+ Agent 模式做高层决策。v3 快 44%，驱动无关，多语言支持。 |
+| [Deno Sandbox](https://deno.com/blog/deno-sandbox) | AI 生成代码的安全沙箱。Firecracker 微虚拟机，独立文件系统、网络和进程空间。防 prompt 注入，专为 Agent 工具执行设计。 |
 | [ERP (Ephemeral Runtime Protocol)](https://github.com/anthropics/erp) | 为 Agent 管理临时代码执行环境的轻量协议，无状态设计，任务完成即销毁，补充 MCP 的运行时生命周期管理。 |
 
 ## 可观测性
@@ -177,6 +181,7 @@ AI Agent 基础设施有两个截然不同的层次：
 |------|------|
 | [Langfuse](https://github.com/langfuse/langfuse) | 开源 LLM 可观测性平台。追踪查看、Prompt 版本管理、成本跟踪和评估。支持自托管，满足严格数据治理需求。 |
 | [Arize Phoenix](https://github.com/Arize-ai/phoenix) | 开源可观测性平台，内置聚类和漂移检测。生产环境中使用 LLM-as-a-judge 对相关性、毒性和准确性评分。 |
+| [Entire CLI](https://github.com/entireio/cli) | Agent 会话版本控制。在独立 Git 分支上捕获 prompt、response、修改的文件和 token 用量。Agent 跑偏时可回滚到任意存档点。前 GitHub CEO 创建，$60M 种子轮。兼容 Claude Code、Gemini 等。 |
 
 ## 身份与通信
 
