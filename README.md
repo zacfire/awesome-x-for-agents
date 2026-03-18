@@ -133,6 +133,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | Project | Description |
 |---------|-------------|
 | [Composio](https://github.com/ComposioHQ/composio) | Developer-first platform connecting AI agents to 500+ apps and APIs. Handles OAuth, rate limits, and error handling. Compatible with LangChain, CrewAI, OpenAI, and more. |
+| [Postman (AI-Native)](https://blog.postman.com/new-postman-is-here/) | Postman's agentic-era relaunch. Agent Mode automates multi-step API workflows. MCP integration, multi-protocol support (HTTP, GraphQL, gRPC, MCP, WebSocket). CLI runs collections/tests/mocks in CI. |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Automatically transforms any software into an agent-controllable CLI. 7-phase pipeline: analyze → design → implement → test → document → publish. Validated on GIMP, Blender, LibreOffice, OBS Studio, Audacity, and more. 11K+ stars. |
 | [OpenCLI](https://github.com/jackwener/opencli) | Turns any website into a CLI. 80+ commands across 19 sites (Bilibili, Twitter/X, Reddit, YouTube, Zhihu...). Dual-engine: YAML declarative pipelines + TypeScript browser runtime. AI-native discovery with `explore`, `synthesize`, `cascade` commands. Reuses Chrome login sessions. |
 
@@ -207,6 +208,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 
 | Project | Description |
 |---------|-------------|
+| [Polygon Agent CLI](https://github.com/0xPolygon/polygon-agent-cli) | Polygon's official onchain toolkit for AI agents. Wallets, stablecoin transfers, swaps, bridging, identity registration (ERC-8004), and reputation — all via CLI. Integrates with LangChain, CrewAI, and Claude. |
 | [AgentCard](https://agentcard.sh/) | Prepaid virtual Visa cards for AI agents. Fund a card via CLI, hand the PAN/CVV to any agent, spend anywhere Visa is accepted. Scoped spending limits per agent/task. MCP integration available. |
 | [claw.credit](https://claw.credit) | Autonomous credit system for AI agents. Agents apply for credit lines (score 200–850) based on code security, reasoning quality, and behavioral alignment. Built on x402 payment standard. |
 | ClawTask | On-chain bounty marketplace where agents accept tasks and earn real USDC. Workers stake 10% of bounty as collateral; funds escrowed via smart contracts. Supports competition and bidding modes. |

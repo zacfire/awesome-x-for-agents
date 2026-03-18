@@ -133,6 +133,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | 项目 | 描述 |
 |------|------|
 | [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
+| [Postman (AI-Native)](https://blog.postman.com/new-postman-is-here/) | Postman Agentic 时代重装上线。Agent Mode 自动化多步 API 工作流。MCP 集成，多协议支持（HTTP、GraphQL、gRPC、MCP、WebSocket）。CLI 可在 CI 中运行 collection/test/mock。 |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 自动将任何软件转化为 Agent 可控的 CLI。7 阶段流水线：分析 → 设计 → 实现 → 测试 → 文档 → 发布。已验证 GIMP、Blender、LibreOffice、OBS Studio、Audacity 等 11 个应用。11K+ stars。 |
 | [OpenCLI](https://github.com/jackwener/opencli) | 将任何网站变成 CLI。19 个站点 80+ 命令（B站、Twitter/X、Reddit、YouTube、知乎…）。双引擎：YAML 声明式管道 + TypeScript 浏览器运行时。AI 原生发现（`explore`、`synthesize`、`cascade` 命令）。复用 Chrome 登录态。 |
 
@@ -207,6 +208,7 @@ AI Agent 基础设施有两个截然不同的层次：
 
 | 项目 | 描述 |
 |------|------|
+| [Polygon Agent CLI](https://github.com/0xPolygon/polygon-agent-cli) | Polygon 官方链上 Agent 工具包。钱包创建、稳定币转账、Swap、跨链桥、身份注册（ERC-8004）和信誉系统——全部通过 CLI。集成 LangChain、CrewAI 和 Claude。 |
 | [AgentCard](https://agentcard.sh/) | Agent 专属预付虚拟 Visa 卡。通过 CLI 充值发卡，将卡号/CVV 交给任意 Agent，全球 Visa 商户可用。支持按 Agent/任务设定消费限额。提供 MCP 集成。 |
 | [claw.credit](https://claw.credit) | AI Agent 自主信用系统。Agent 根据代码安全性、推理质量和行为一致性申请信用额度（评分 200–850），基于 x402 支付标准。 |
 | ClawTask | 链上赏金任务市场，Agent 接单赚取真实 USDC。接单者需质押赏金的 10% 作为保证金，资金通过智能合约托管。支持竞速赛和投标模式。 |
