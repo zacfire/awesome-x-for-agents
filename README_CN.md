@@ -258,6 +258,7 @@ AI Agent 基础设施有两个截然不同的层次：
 |------|------|
 | [n8n](https://github.com/n8n-io/n8n) | AI-native 自动化平台，支持将 LLM 集成到工作流中创建自定义 Agent 自动化，fair-code 许可。 |
 | [Dify](https://github.com/langgenius/dify) | 生产就绪的 Agentic 工作流平台，提供可视化工作流构建器，支持多模型和 RAG 管线。 |
+| [Linear Agent](https://linear.app/changelog/2026-03-24-introducing-linear-agent) | 内置于 Linear 的 AI Agent，理解工作区上下文（路线图、Issue、代码）。通过 App、Slack、Teams 访问。可复用 Skill、自动分流、MCP 服务器支持分页。代码智能即将上线。 |
 
 ## 组织与基金会
 

@@ -258,6 +258,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 |---------|-------------|
 | [n8n](https://github.com/n8n-io/n8n) | AI-native automation platform. Integrates LLMs into workflows for custom agent automations under fair-code license. |
 | [Dify](https://github.com/langgenius/dify) | Production-ready agentic workflow platform with visual workflow builder, multi-model and RAG pipeline support. |
+| [Linear Agent](https://linear.app/changelog/2026-03-24-introducing-linear-agent) | AI agent built into Linear that understands workspace context (roadmaps, issues, code). Accessible via app, Slack, Teams. Reusable skills, triage automations, MCP server with pagination. Code intelligence coming soon. |
 
 ## Organizations
 
