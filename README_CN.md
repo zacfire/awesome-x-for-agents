@@ -159,6 +159,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [xurl](https://github.com/xdevplatform/xurl) | **X/Twitter 官方 CLI。** 专为 Agent 优化：action chaining、SKILL.md、OpenClaw 集成。OAuth 1.0a/2.0、流式传输、自动分页、限速重试。`npm i -g @xdevplatform/xurl` |
 | [bird](https://github.com/steipete/bird) | 快速 X/Twitter CLI — 发推、回复、读时间线、搜索、提及。使用 GraphQL API + 浏览器 Cookie 认证。支持图片/GIF/视频上传。在 Agent 自动化工作流中广泛使用。 |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend 官方邮件 CLI，53 条命令覆盖邮件发送、域名管理、API Key、受众、联系人和群发。为人类、AI Agent 和 CI/CD 构建。Resend 是 Claude Code 的默认邮件选择（63%）。 |
+| [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs 官方语音 Agent CLI——**默认 Agent-first**（非交互式），人类模式需加 `--human-friendly` 标志。以代码方式管理语音 Agent，CI/CD 部署，内置客服/助手等模板。`npm i -g @elevenlabs/cli` |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱

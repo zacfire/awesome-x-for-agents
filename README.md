@@ -159,6 +159,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [xurl](https://github.com/xdevplatform/xurl) | **X/Twitter's official CLI.** Agent-optimized with action chaining, SKILL.md, and OpenClaw integration. OAuth 1.0a/2.0, streaming, pagination, rate-limit retries. `npm i -g @xdevplatform/xurl` |
 | [bird](https://github.com/steipete/bird) | Fast X/Twitter CLI for agents — tweet, reply, read timelines, search, mentions. Uses GraphQL API with browser cookie auth. Image/GIF/video uploads. Popular in agent automation workflows. |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend's official CLI for email — 53 commands covering emails, domains, API keys, audiences, contacts, and broadcasts. Built for humans, AI agents, and CI/CD. Resend is Claude Code's default email pick (63%). |
+| [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs' official CLI for voice agents — **agent-first by default** (non-interactive), human mode behind `--human-friendly` flag. Manage voice agents as code, CI/CD deploy, templates for customer service/assistant. `npm i -g @elevenlabs/cli` |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
