@@ -160,6 +160,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [bird](https://github.com/steipete/bird) | Fast X/Twitter CLI for agents — tweet, reply, read timelines, search, mentions. Uses GraphQL API with browser cookie auth. Image/GIF/video uploads. Popular in agent automation workflows. |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend's official CLI for email — 53 commands covering emails, domains, API keys, audiences, contacts, and broadcasts. Built for humans, AI agents, and CI/CD. Resend is Claude Code's default email pick (63%). |
 | [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs' official CLI for voice agents — **agent-first by default** (non-interactive), human mode behind `--human-friendly` flag. Manage voice agents as code, CI/CD deploy, templates for customer service/assistant. `npm i -g @elevenlabs/cli` |
+| [shadcn/ui CLI v4](https://ui.shadcn.com/) | shadcn/ui's agent-era CLI update. Ships with `shadcn/skills` for AI agent integration and design system presets. Claude Code's default UI component pick (90%). |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
@@ -258,6 +259,8 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 |---------|-------------|
 | [n8n](https://github.com/n8n-io/n8n) | AI-native automation platform. Integrates LLMs into workflows for custom agent automations under fair-code license. |
 | [Dify](https://github.com/langgenius/dify) | Production-ready agentic workflow platform with visual workflow builder, multi-model and RAG pipeline support. |
+| [GitHub Agent HQ](https://github.blog/news-insights/company-news/welcome-home-agents/) | GitHub's unified "mission control" for agent fleets. Orchestrate agents from Anthropic, OpenAI, Google, Cognition, xAI in one place. Assign tasks across repos, real-time session logs, enterprise governance. |
+| [Dapr Agents](https://github.com/dapr/dapr-agents) | CNCF's production-ready agent framework (v1.0 GA March 2026). Durable workflows, state management, virtual Actor pattern for stateful agents. Built on Dapr distributed runtime. NVIDIA collaboration. |
 | [Linear Agent](https://linear.app/changelog/2026-03-24-introducing-linear-agent) | AI agent built into Linear that understands workspace context (roadmaps, issues, code). Accessible via app, Slack, Teams. Reusable skills, triage automations, MCP server with pagination. Code intelligence coming soon. |
 
 ## Organizations

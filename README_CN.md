@@ -160,6 +160,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [bird](https://github.com/steipete/bird) | 快速 X/Twitter CLI — 发推、回复、读时间线、搜索、提及。使用 GraphQL API + 浏览器 Cookie 认证。支持图片/GIF/视频上传。在 Agent 自动化工作流中广泛使用。 |
 | [Resend CLI](https://github.com/resend/resend-cli) | Resend 官方邮件 CLI，53 条命令覆盖邮件发送、域名管理、API Key、受众、联系人和群发。为人类、AI Agent 和 CI/CD 构建。Resend 是 Claude Code 的默认邮件选择（63%）。 |
 | [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs 官方语音 Agent CLI——**默认 Agent-first**（非交互式），人类模式需加 `--human-friendly` 标志。以代码方式管理语音 Agent，CI/CD 部署，内置客服/助手等模板。`npm i -g @elevenlabs/cli` |
+| [shadcn/ui CLI v4](https://ui.shadcn.com/) | shadcn/ui 的 Agent 时代 CLI 更新。附带 `shadcn/skills` 支持 AI Agent 集成和设计系统预设。Claude Code 默认 UI 组件选择（90%）。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱
@@ -258,6 +259,8 @@ AI Agent 基础设施有两个截然不同的层次：
 |------|------|
 | [n8n](https://github.com/n8n-io/n8n) | AI-native 自动化平台，支持将 LLM 集成到工作流中创建自定义 Agent 自动化，fair-code 许可。 |
 | [Dify](https://github.com/langgenius/dify) | 生产就绪的 Agentic 工作流平台，提供可视化工作流构建器，支持多模型和 RAG 管线。 |
+| [GitHub Agent HQ](https://github.blog/news-insights/company-news/welcome-home-agents/) | GitHub 的 Agent 舰队统一"指挥中心"。在一个界面编排 Anthropic、OpenAI、Google、Cognition、xAI 的 Agent。跨仓库分配任务、实时会话日志、企业级治理。 |
+| [Dapr Agents](https://github.com/dapr/dapr-agents) | CNCF 出品的生产级 Agent 框架（v1.0 GA 2026年3月）。持久化工作流、状态管理、虚拟 Actor 模式实现有状态 Agent。基于 Dapr 分布式运行时，NVIDIA 合作。 |
 | [Linear Agent](https://linear.app/changelog/2026-03-24-introducing-linear-agent) | 内置于 Linear 的 AI Agent，理解工作区上下文（路线图、Issue、代码）。通过 App、Slack、Teams 访问。可复用 Skill、自动分流、MCP 服务器支持分页。代码智能即将上线。 |
 
 ## 组织与基金会
