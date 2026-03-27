@@ -299,6 +299,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agent 更喜欢写代码而非引入依赖——因为对 AI 来说"代码是免费的，依赖不是"。 |
 | [CLI is All Agents Need — *nix Agent 设计宝典](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | agent-clip | 一个 `run(command)` 就够了。Unix 的"一切皆文本流" = LLM 的"一切皆 token"。渐进式 --help、错误引导导航、双层架构。 |
 | [我们也许不该再投资 GUI 思维的软件公司](https://mp.weixin.qq.com/s/NZSPWSvQoonU0XK7t2Jt6w) | 真格基金（钟天杰） | GUI 是人类认知缺陷的补丁，Agent 不需要它。最有价值的软件公司是成为 Agent 工作流里默认协议的公司。"Software as Protocols"——靠成为标准来竞争，而非靠更好看。 |
+| [Agent 友好 CLI 的 7 条原则](https://www.bassimeledath.com/blog/levels-of-agentic-engineering) | Compound Engineering | 缺失的 Agent CLI 设计规范：默认非交互式、结构化输出、可操作的错误信息、安全重试、渐进式帮助、可组合结构、有界响应。按严重度分级（阻塞/摩擦/优化），不是简单通过/失败。 |
 
 ---
 
