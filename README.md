@@ -299,7 +299,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Why AI Agents Build Instead of Buy](https://chatbotkit.com/reflections/why-ai-agents-build-instead-of-buy) | ChatBotKit | Agents prefer writing code over adding dependencies — because "code is free but dependencies aren't" for an AI. |
 | [CLI is All Agents Need — *nix Agent Design Bible](https://mp.weixin.qq.com/s/kK9BdEDORWzx-Pb_Ie_36Q) | agent-clip | A single `run(command)` outperforms sprawling tool catalogs. Unix's "everything is text" = LLM's "everything is tokens". Progressive --help, error-guided navigation, and two-layer architecture. |
 | [We Should Stop Investing in GUI-Minded Software](https://mp.weixin.qq.com/s/NZSPWSvQoonU0XK7t2Jt6w) | ZhenFund (钟天杰) | GUI is a patch for human cognitive deficits — agents don't need it. The most valuable software becomes a default protocol in agent workflows. "Software as Protocols" — compete by becoming the standard, not by looking prettier. |
-| [7 Principles for Agent-Friendly CLIs](https://www.bassimeledath.com/blog/levels-of-agentic-engineering) | Compound Engineering | The missing CLI design rubric for agents: non-interactive by default, structured output, actionable errors, safe retries, progressive help, composable structure, bounded responses. Severity-based (Blocker/Friction/Optimization), not pass/fail. |
+| [7 Principles for Agent-Friendly CLIs](https://x.com/trevin/status/2037250000821059933) | Trevin (Compound Engineering) | The missing CLI design rubric for agents: non-interactive by default, structured output, actionable errors, safe retries, progressive help, composable structure, bounded responses. Severity-based (Blocker/Friction/Optimization), not pass/fail. |
 
 ---
 
