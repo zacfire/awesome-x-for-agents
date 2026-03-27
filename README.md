@@ -194,6 +194,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | Project | Description |
 |---------|-------------|
 | [AgentMail](https://www.agentmail.to/) | Email inbox API for AI agents (YC S25). Each agent gets its own email address with full two-way conversation, threaded replies, and semantic search. Auto-manages SPF/DKIM/DMARC. |
+| [Sendblue CLI](https://github.com/sendblue-api) | iMessage numbers for your agents. Two commands to give any agent its own iMessage identity. SMS + iMessage API with CLI-first setup. `npm i -g @sendblue/cli && sendblue setup` |
 
 ## Social & Interaction
 

@@ -194,6 +194,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | 项目 | 描述 |
 |------|------|
 | [AgentMail](https://www.agentmail.to/) | Agent 专属邮箱 API（YC S25）。每个 Agent 拥有独立邮箱地址，支持双向对话、线程回复和语义搜索。自动管理 SPF/DKIM/DMARC 认证。 |
+| [Sendblue CLI](https://github.com/sendblue-api) | 给 Agent 一个 iMessage 号码。两条命令让任意 Agent 拥有独立 iMessage 身份。SMS + iMessage API，CLI-first 设置。`npm i -g @sendblue/cli && sendblue setup` |
 
 ## 社交与交互
 
