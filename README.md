@@ -167,6 +167,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Ramp CLI](https://ramp.com/) | Ramp's CLI for agent finance operations. Generate Agent Card credentials, manage expenses, automate approvals. Integrates with Ramp's Policy Agent for autonomous low-risk expense approval. |
 | [Kapso CLI](https://kapso.ai/) | WhatsApp numbers for agents. Official Meta Cloud API, no ban risk. `kapso login && kapso whatsapp messages`. Ships with SKILL.md for agent integration. 2-minute setup to 3B WhatsApp users. |
 | [Discrawl](https://github.com/steipete/discrawl) | Discord CLI with SQLite backend by steipete. Sync guilds/channels, search messages, list by author/time range. Go single-binary. Same author as bird (Twitter CLI). |
+| [NetEase Music Skills](https://github.com/NetEase/skills) | NetEase Cloud Music agent skills built on `ncm-cli`. Search, playlist management, personalized recommendations. Pipeline: understand → analyze preferences → search → filter → recommend. Ships with 3 SKILL.md files. |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox

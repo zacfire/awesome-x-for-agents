@@ -167,6 +167,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Ramp CLI](https://ramp.com/) | Ramp 的 Agent 财务 CLI。生成 Agent Card 凭证、管理费用、自动化审批。集成 Ramp Policy Agent 实现低风险费用自主审批。 |
 | [Kapso CLI](https://kapso.ai/) | 给 Agent 一个 WhatsApp 号码。官方 Meta Cloud API，无封号风险。`kapso login && kapso whatsapp messages`。附带 SKILL.md。2 分钟接入 30 亿 WhatsApp 用户。 |
 | [Discrawl](https://github.com/steipete/discrawl) | steipete 的 Discord CLI，SQLite 后端。同步频道、搜索消息、按作者/时间筛选。Go 单二进制。同作者还有 bird（Twitter CLI）。 |
+| [网易云音乐 Agent Skills](https://github.com/NetEase/skills) | 基于 `ncm-cli` 的网易云音乐 Agent 技能包。搜索、歌单管理、个性化推荐。流程：理解需求 → 分析偏好 → 搜索策略 → 执行 → 筛选 → 语义化推荐。附带 3 个 SKILL.md。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱
