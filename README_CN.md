@@ -135,6 +135,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Stripe Projects](https://projects.dev/) | 从 CLI 一键开通生产服务——一条命令完成注册账号、获取 API Key、配置计费。`stripe projects add posthog/analytics`。支持 Vercel、Supabase、Neon、Turso、PostHog、Clerk 等。Agent 不再需要人类去浏览器点注册流程。 |
 | [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
 | [Postman (AI-Native)](https://blog.postman.com/new-postman-is-here/) | Postman Agentic 时代重装上线。Agent Mode 自动化多步 API 工作流。MCP 集成，多协议支持（HTTP、GraphQL、gRPC、MCP、WebSocket）。CLI 可在 CI 中运行 collection/test/mock。 |
+| [科大讯飞 SkillHub](https://github.com/iflytek/skillhub) | 科大讯飞出品的企业级自托管 Agent Skill 注册中心。Skill 包发布与版本管理、RBAC 权限治理与审计日志、Docker/K8s 私有化部署。 |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 自动将任何软件转化为 Agent 可控的 CLI。7 阶段流水线：分析 → 设计 → 实现 → 测试 → 文档 → 发布。已验证 GIMP、Blender、LibreOffice、OBS Studio、Audacity 等 11 个应用。11K+ stars。 |
 | [OpenCLI](https://github.com/jackwener/opencli) | 将任何网站变成 CLI。19 个站点 80+ 命令（B站、Twitter/X、Reddit、YouTube、知乎…）。双引擎：YAML 声明式管道 + TypeScript 浏览器运行时。AI 原生发现（`explore`、`synthesize`、`cascade` 命令）。复用 Chrome 登录态。 |
 
@@ -167,6 +168,8 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Ramp CLI](https://ramp.com/) | Ramp 的 Agent 财务 CLI。生成 Agent Card 凭证、管理费用、自动化审批。集成 Ramp Policy Agent 实现低风险费用自主审批。 |
 | [Kapso CLI](https://kapso.ai/) | 给 Agent 一个 WhatsApp 号码。官方 Meta Cloud API，无封号风险。`kapso login && kapso whatsapp messages`。附带 SKILL.md。2 分钟接入 30 亿 WhatsApp 用户。 |
 | [Discrawl](https://github.com/steipete/discrawl) | steipete 的 Discord CLI，SQLite 后端。同步频道、搜索消息、按作者/时间筛选。Go 单二进制。同作者还有 bird（Twitter CLI）。 |
+| [飞书 CLI (feishu-cli)](https://github.com/riba2534/feishu-cli) | 飞书全功能 CLI——文档、知识库、表格、消息、日历、任务。**11 个 SKILL.md** 供 AI Agent 使用。Markdown ↔ 飞书文档无损转换（40+ 块类型）。万行级并发管线处理。 |
+| [阿里云 Data Agent Skill](https://github.com/aliyun/data-agent-skill) | 阿里云官方 Agent 数据分析技能。自然语言查询 DMS 数据库、CSV/Excel/JSON 文件分析、异步执行与会话隔离。 |
 | [网易云音乐 Agent Skills](https://github.com/NetEase/skills) | 基于 `ncm-cli` 的网易云音乐 Agent 技能包。搜索、歌单管理、个性化推荐。流程：理解需求 → 分析偏好 → 搜索策略 → 执行 → 筛选 → 语义化推荐。附带 3 个 SKILL.md。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
