@@ -132,6 +132,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 
 | Project | Description |
 |---------|-------------|
+| [Stripe Projects](https://projects.dev/) | Provision production services from CLI — one command to create accounts, get API keys, and set up billing. `stripe projects add posthog/analytics`. Supports Vercel, Supabase, Neon, Turso, PostHog, Clerk, and more. Agents no longer need humans to click through signup flows. |
 | [Composio](https://github.com/ComposioHQ/composio) | Developer-first platform connecting AI agents to 500+ apps and APIs. Handles OAuth, rate limits, and error handling. Compatible with LangChain, CrewAI, OpenAI, and more. |
 | [Postman (AI-Native)](https://blog.postman.com/new-postman-is-here/) | Postman's agentic-era relaunch. Agent Mode automates multi-step API workflows. MCP integration, multi-protocol support (HTTP, GraphQL, gRPC, MCP, WebSocket). CLI runs collections/tests/mocks in CI. |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Automatically transforms any software into an agent-controllable CLI. 7-phase pipeline: analyze → design → implement → test → document → publish. Validated on GIMP, Blender, LibreOffice, OBS Studio, Audacity, and more. 11K+ stars. |

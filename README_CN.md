@@ -132,6 +132,7 @@ AI Agent 基础设施有两个截然不同的层次：
 
 | 项目 | 描述 |
 |------|------|
+| [Stripe Projects](https://projects.dev/) | 从 CLI 一键开通生产服务——一条命令完成注册账号、获取 API Key、配置计费。`stripe projects add posthog/analytics`。支持 Vercel、Supabase、Neon、Turso、PostHog、Clerk 等。Agent 不再需要人类去浏览器点注册流程。 |
 | [Composio](https://github.com/ComposioHQ/composio) | 开发者优先的 Agent 工具集成平台，连接 500+ 应用和 API。处理 OAuth、限速和错误重试。兼容 LangChain、CrewAI、OpenAI 等框架。 |
 | [Postman (AI-Native)](https://blog.postman.com/new-postman-is-here/) | Postman Agentic 时代重装上线。Agent Mode 自动化多步 API 工作流。MCP 集成，多协议支持（HTTP、GraphQL、gRPC、MCP、WebSocket）。CLI 可在 CI 中运行 collection/test/mock。 |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 自动将任何软件转化为 Agent 可控的 CLI。7 阶段流水线：分析 → 设计 → 实现 → 测试 → 文档 → 发布。已验证 GIMP、Blender、LibreOffice、OBS Studio、Audacity 等 11 个应用。11K+ stars。 |
