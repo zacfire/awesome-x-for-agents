@@ -163,6 +163,10 @@ AI Agent 基础设施有两个截然不同的层次：
 | [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs 官方语音 Agent CLI——**默认 Agent-first**（非交互式），人类模式需加 `--human-friendly` 标志。以代码方式管理语音 Agent，CI/CD 部署，内置客服/助手等模板。`npm i -g @elevenlabs/cli` |
 | [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 世界首个专为 AI Agent 设计的 Office 套件。通过 CLI 读写 Word/Excel/PowerPoint。单二进制文件，无需安装 Office。`--json` 输出、PPT 实时 HTML 预览、常驻模式、批量操作。 |
 | [shadcn/ui CLI v4](https://ui.shadcn.com/) | shadcn/ui 的 Agent 时代 CLI 更新。附带 `shadcn/skills` 支持 AI Agent 集成和设计系统预设。Claude Code 默认 UI 组件选择（90%）。 |
+| [Visa CLI](https://github.com/nicktomlin/visa-cli) | **Visa Crypto Labs 实验性 CLI**，为 AI Agent 支付打造。Agent 从终端发起卡支付，无需 API Key——降低凭证暴露风险。2026年3月 Beta。 |
+| [Ramp CLI](https://ramp.com/) | Ramp 的 Agent 财务 CLI。生成 Agent Card 凭证、管理费用、自动化审批。集成 Ramp Policy Agent 实现低风险费用自主审批。 |
+| [Kapso CLI](https://kapso.ai/) | 给 Agent 一个 WhatsApp 号码。官方 Meta Cloud API，无封号风险。`kapso login && kapso whatsapp messages`。附带 SKILL.md。2 分钟接入 30 亿 WhatsApp 用户。 |
+| [Discrawl](https://github.com/steipete/discrawl) | steipete 的 Discord CLI，SQLite 后端。同步频道、搜索消息、按作者/时间筛选。Go 单二进制。同作者还有 bird（Twitter CLI）。 |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe 官方 CLI，用于构建、测试和管理支付集成。Agent 用它来自动化支付工作流、测试 Webhook 和探索 API。 |
 
 ## 运行时与沙箱

@@ -163,6 +163,10 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [ElevenLabs CLI](https://github.com/elevenlabs/cli) | ElevenLabs' official CLI for voice agents — **agent-first by default** (non-interactive), human mode behind `--human-friendly` flag. Manage voice agents as code, CI/CD deploy, templates for customer service/assistant. `npm i -g @elevenlabs/cli` |
 | [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | World's first Office suite for AI agents. Read, edit, and automate Word/Excel/PowerPoint via CLI. Single binary, no Office installation needed. `--json` output, live HTML preview for PPT, resident mode, batch operations. |
 | [shadcn/ui CLI v4](https://ui.shadcn.com/) | shadcn/ui's agent-era CLI update. Ships with `shadcn/skills` for AI agent integration and design system presets. Claude Code's default UI component pick (90%). |
+| [Visa CLI](https://github.com/nicktomlin/visa-cli) | **Visa Crypto Labs' experimental CLI** for AI agent payments. Agents initiate card payments from terminal without API keys — reduces credential exposure risk. Beta, March 2026. |
+| [Ramp CLI](https://ramp.com/) | Ramp's CLI for agent finance operations. Generate Agent Card credentials, manage expenses, automate approvals. Integrates with Ramp's Policy Agent for autonomous low-risk expense approval. |
+| [Kapso CLI](https://kapso.ai/) | WhatsApp numbers for agents. Official Meta Cloud API, no ban risk. `kapso login && kapso whatsapp messages`. Ships with SKILL.md for agent integration. 2-minute setup to 3B WhatsApp users. |
+| [Discrawl](https://github.com/steipete/discrawl) | Discord CLI with SQLite backend by steipete. Sync guilds/channels, search messages, list by author/time range. Go single-binary. Same author as bird (Twitter CLI). |
 | [Stripe CLI](https://github.com/stripe/stripe-cli) | Stripe's official CLI for building, testing, and managing integrations. Agents use it for payment workflow automation, webhook testing, and API exploration. |
 
 ## Runtime & Sandbox
