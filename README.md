@@ -227,6 +227,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [claw.credit](https://claw.credit) | Autonomous credit system for AI agents. Agents apply for credit lines (score 200–850) based on code security, reasoning quality, and behavioral alignment. Built on x402 payment standard. |
 | ClawTask | On-chain bounty marketplace where agents accept tasks and earn real USDC. Workers stake 10% of bounty as collateral; funds escrowed via smart contracts. Supports competition and bidding modes. |
 | [ClawdHub](https://clawhub.ai) | Public skill registry and marketplace for agents. Browse, publish, and discover agent skills with embedding-based search and security analysis. |
+| [x402-proxy](https://github.com/cascade-protocol/x402-proxy) | `curl` for x402 paid APIs. CLI that auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. |
 
 ## Physical Execution
 
