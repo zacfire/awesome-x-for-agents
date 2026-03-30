@@ -169,6 +169,7 @@ AI Agent 基础设施有两个截然不同的层次：
 | [Kapso CLI](https://kapso.ai/) | 给 Agent 一个 WhatsApp 号码。官方 Meta Cloud API，无封号风险。`kapso login && kapso whatsapp messages`。附带 SKILL.md。2 分钟接入 30 亿 WhatsApp 用户。 |
 | [Discrawl](https://github.com/steipete/discrawl) | steipete 的 Discord CLI，SQLite 后端。同步频道、搜索消息、按作者/时间筛选。Go 单二进制。同作者还有 bird（Twitter CLI）。 |
 | [飞书 CLI (feishu-cli)](https://github.com/riba2534/feishu-cli) | 飞书全功能 CLI——文档、知识库、表格、消息、日历、任务。**11 个 SKILL.md** 供 AI Agent 使用。Markdown ↔ 飞书文档无损转换（40+ 块类型）。万行级并发管线处理。 |
+| [企业微信 CLI](https://github.com/WecomTeam/wecom-cli) | **企业微信官方 CLI**——通讯录、待办、会议、消息、日程、文档、智能表单。7 大类别，12 个 AI Agent Skill。`npm i -g @wecom/cli`。为人类和 AI Agent 双设计。 |
 | [钉钉 Workspace CLI](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) | **钉钉官方 CLI**——跨平台，为人类和 AI Agent 双设计。覆盖通讯录、日历、待办、考勤、AI 表格、群聊、日志。12 个 Python Skill 脚本，三层 SKILL.md 架构，MCP 协议。AES-256-GCM 加密认证。 |
 | [阿里云 Data Agent Skill](https://github.com/aliyun/data-agent-skill) | 阿里云官方 Agent 数据分析技能。自然语言查询 DMS 数据库、CSV/Excel/JSON 文件分析、异步执行与会话隔离。 |
 | [网易云音乐 Agent Skills](https://github.com/NetEase/skills) | 基于 `ncm-cli` 的网易云音乐 Agent 技能包。搜索、歌单管理、个性化推荐。流程：理解需求 → 分析偏好 → 搜索策略 → 执行 → 筛选 → 语义化推荐。附带 3 个 SKILL.md。 |
