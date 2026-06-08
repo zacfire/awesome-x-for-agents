@@ -228,6 +228,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [claw.credit](https://claw.credit) | Autonomous credit system for AI agents. Agents apply for credit lines (score 200–850) based on code security, reasoning quality, and behavioral alignment. Built on x402 payment standard. |
 | ClawTask | On-chain bounty marketplace where agents accept tasks and earn real USDC. Workers stake 10% of bounty as collateral; funds escrowed via smart contracts. Supports competition and bidding modes. |
 | [ClawdHub](https://clawhub.ai) | Public skill registry and marketplace for agents. Browse, publish, and discover agent skills with embedding-based search and security analysis. |
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | On-chain trust scoring MCP for Solana agent wallets. Agents run `score_agent(wallet)` or `preflight_check(wallet)` free before x402 payments; `get_trust_receipt(wallet)` returns a signed receipt via x402. |
 
 ## Physical Execution
 
