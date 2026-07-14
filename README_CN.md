@@ -145,6 +145,7 @@ AI Agent 基础设施有两个截然不同的层次：
 
 | 项目 | 描述 |
 |------|------|
+| [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) | 开源 Python CLI，让 Agent 通过受信局域网调用另一台机器上已有的本地 Agent 或自动化。提供 JSON 输出和明确退出码，发布方的源码、提示词、依赖与凭证保持本地。当前为 Alpha，不应暴露到公网。 |
 | [Terminalwire](https://terminalwire.com/) | 通过 WebSocket 将服务端 CLI 应用流式传输给用户。几天内为你的 SaaS 发布一个 CLI——Agent（和人类）通过终端而非 Web UI 交互。 |
 | [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | 定位为"被 Agent 使用多于被人类使用"的 CLI 平台。内置构建、验证、测试和部署的完整工具链——全程无需打开 GUI。 |
 | [Polymarket CLI](https://github.com/Polymarket/agents) | Polymarket 官方 CLI + Agent 框架，用于预测市场自主交易。Agent 查询市场、检索新闻、用 LLM 推理，通过命令行执行交易。 |
