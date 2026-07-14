@@ -145,6 +145,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 
 | Project | Description |
 |---------|-------------|
+| [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) | Open-source Python CLI that lets an agent call an existing local agent or automation over a trusted LAN. JSON output and meaningful exit codes support automation, while the publisher keeps source, prompts, dependencies, and credentials local. Alpha; not for public-internet exposure. |
 | [Terminalwire](https://terminalwire.com/) | Stream server-side CLI apps to users via WebSocket. Ship a CLI for your SaaS in days — agents (and humans) interact through the terminal instead of a web UI. |
 | [Dreamer](https://blog.singleton.io/posts/2026-02-17-introducing-dreamer/) | CLI platform designed to be used more by agents than humans. Batteries-included tooling for build, validate, test, and deploy — all without visiting a GUI. |
 | [Polymarket CLI](https://github.com/Polymarket/agents) | Official CLI + agent framework for autonomous prediction market trading. Agents query markets, retrieve news, reason with LLMs, and execute trades via command line. |
