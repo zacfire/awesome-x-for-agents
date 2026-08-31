@@ -187,6 +187,7 @@ In 12 of 20 categories, Claude Code **writes custom code** rather than recommend
 | [Stagehand](https://github.com/browserbase/stagehand) | AI browser automation framework by Browserbase. Atomic primitives (`act`, `extract`, `observe`) + Agent mode for high-level decision making. v3 is 44% faster, driver-agnostic, multi-language. |
 | [Deno Sandbox](https://deno.com/blog/deno-sandbox) | Secure sandbox for AI-generated code execution. Firecracker microVMs with isolated filesystem, network, and process space. Defends against prompt injection. Ideal for agent tool execution. |
 | [ERP (Ephemeral Runtime Protocol)](https://github.com/anthropics/erp) | Lightweight protocol for managing temporary code execution environments for agents. Stateless by design — environments self-destruct after task completion. |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | Open-source runtime for AI coding agents with isolated workspaces, policy-gated tool execution, MCP support, and auditable task receipts. Self-hosted with Docker or Kubernetes. |
 
 ## Observability
 
